@@ -11,6 +11,4 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::resource('/images', 'ImagesController', ['only' => ['index', 'create', 'store', 'show', 'destroy']]);
