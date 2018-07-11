@@ -21,16 +21,18 @@
 
     <body>
         <header class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <span class="navbar-brand">Laravel S3 Example</span>
+            <div class="container">
+                <span class="navbar-brand">Laravel S3 Example</span>
 
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="/images">
-                            Images
-                        </a>
-                    </li>
-                </ul>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/images">
+                                Images
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </header>
 

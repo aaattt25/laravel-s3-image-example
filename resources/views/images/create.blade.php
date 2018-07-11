@@ -16,6 +16,6 @@
             </p>
         </fieldset>
 
-        <input type="submit" value="アップロード" />
+        <input class="btn btn-primary" type="submit" value="アップロード" />
     </form>
 @endsection

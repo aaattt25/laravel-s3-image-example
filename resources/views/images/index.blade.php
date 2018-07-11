@@ -9,7 +9,7 @@
 
     <div class="cards">
         @foreach ($files as $file)
-            <div class="card" style="width: 14rem;">
+            <div class="card" style="width: 24%;">
                 <img class="card-img-top" src="{{ url("/images/${file}") }}" style="height: auto;">
 
                 <div class="card-body">
